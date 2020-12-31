@@ -1,8 +1,7 @@
 ### Hi there 👋
 
 - 🔭 I’m currently working on hpc workload manager based on slurm.
-- 👯 I’m looking to improve myself.
-- 🤔 I’m looking for help to improve my English.
+- 👯 Learning.
 - 📫 How to reach me: tubao9hao@126.com / qq: 1678321951
 - ⚡ Currently an Intern @***
 
