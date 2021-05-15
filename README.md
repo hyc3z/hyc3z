@@ -1,8 +1,6 @@
 ### Hi there 👋
 
-- 🔭 I’m currently working on hpc workload manager based on slurm.
-- 👯 Learning JavaScript.
-- 📫 How to reach me: tubao9hao@126.com / qq: 1678321951
+- 🔭 I’m currently at lost.
+- 👯 Learning nothing at all.
+- 📫 How not to reach me: tubao9hao@126.com / qq: 1678321951
 
-[![hyc3z's github stats](https://github-readme-stats.vercel.app/api?username=hyc3z&show_icons=true&count_private=true)](https://github.com/anuraghazra/github-readme-stats)
-[![Hyc3z's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=hyc3z)](https://github.com/anuraghazra/github-readme-stats)
