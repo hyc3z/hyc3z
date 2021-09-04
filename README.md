@@ -1,2 +1,1 @@
-
-- Inactive.
+- Come with me to the gates of dawn.
