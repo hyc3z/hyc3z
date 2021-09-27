@@ -1,1 +1,11 @@
-- Come with me to the gates of dawn.
+- 👦22.
+- 👨‍🎓Graduated.
+- 🎮Play.
+- 🏄‍Travel.
+- 👨‍💻Code.
+- 🍖Eat.
+- 🏃‍♂️Run.
+- 📖Diary.
+
+
+- Oltremare. Experience. Divenire.
