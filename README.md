@@ -1,6 +1,6 @@
 - 👦22.
 - 👨‍🎓Graduated.
-- 🎮Play.
+- 🎮Games.
 - 🏄‍Travel.
 - 👨‍💻Code.
 - 🍖Eat.
