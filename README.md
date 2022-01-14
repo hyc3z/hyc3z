@@ -1,9 +1,9 @@
 - 👦23.
-- 🎮Games.
-- 🏄‍Travel.
-- 👨‍💻Code.
-- 🍖Food.
-- 🏃‍♂️Jog.
+- 🎮Games(Unavailable).
+- 🏄‍Travel(Unavailable).
+- 👨‍💻Code(Unavailable).
+- 🍖Food(Unavailable).
+- 🏃‍♂️Jog(Unavailable).
 - 📖Diary.
 
 
