@@ -1,112 +1,49 @@
 <div align="center">
 
-```
- ██░ ██▓██   ██▓ ▄████▄  ▓██   ██▓▓████▄
-▓██░ ██▒▒██  ██▒▒██▀ ▀█  ▒██  ██▒ ██▀ ██▌
-▒██▀▀██░ ▒██ ██░▒▓█    ▄  ▒██ ██░░██   █▌
-░▓█ ░██  ░ ▐██▓░▒▓▓▄ ▄██▒ ░ ▐██▓░░▓█▄   ▌
-░▓█▒░██▓ ░ ██▒▓░▒ ▓███▀ ░ ░ ██▒▓░░▒████▓
- ▒ ░░▒░▒  ██▒▒▒ ░ ░▒ ▒  ░  ██▒▒▒  ▒▒▓  ▒
- ▒ ░▒░ ░▓██ ░▒░   ░  ▒   ▓██ ░▒░  ░ ▒  ▒
- ░  ░░ ░▒ ▒ ░░  ░        ▒ ▒ ░░   ░ ░  ░
- ░  ░  ░░ ░     ░ ░      ░ ░        ░
-         ░ ░     ░        ░ ░      ░
-```
+![hyc3z — Build beyond the default](./assets/hero.svg)
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=00FF41&center=true&vCenter=true&multiline=true&repeat=true&random=false&width=600&height=100&lines=%24+whoami;Degen+%2F+Schizo+%2F+Based+Dev+%F0%9F%A7%AC" alt="Typing SVG" />
+**把好奇心写成代码，把想法做成现实。**
+
+[GitHub ↗](https://github.com/hyc3z) · [Repositories ↗](https://github.com/hyc3z?tab=repositories) · [Activity ↗](https://github.com/hyc3z?tab=overview)
+
+</div>
 
 <br>
 
-[![GitHub](https://img.shields.io/badge/GitHub-hyc3z-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/hyc3z)
-[![Visitors](https://komarev.com/ghpvc/?username=hyc3z&style=for-the-badge&color=00ff41&label=VISITORS)](https://github.com/hyc3z)
+## 01 / THE MINDSET
 
-</div>
+喜欢研究系统如何运转，也喜欢动手改变它们。关注 AI、开发工具与开源，在实验中寻找值得继续构建的东西。
 
----
+> **Stay curious. Make it work. Make it yours.**
 
-<img align="right" width="300" src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcTlhNHJ3OHBhN3Ywc2hlcWxwdndqdjU3N3B3MjVzdzNxYnVhcXF4ZiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/qgQUggAC3Pfv687qPC/giphy.gif" />
+<br>
 
-### `> cat /etc/about_me`
+## 02 / EXPLORATION ZONES
 
-```yaml
-name: hyc3z
-title: Based Developer
-location: The Matrix
-status: Building things that shouldn't exist
+| 方向 | 兴趣所在 |
+| :--- | :--- |
+| **AI & Agents** | 从模型能力到真实工作流，探索智能系统的边界。 |
+| **Systems & Tools** | Linux、自动化与开发体验，让工具顺着自己的思路工作。 |
+| **Web & Experiments** | 把点子快速变成可运行的原型，在实际使用中迭代。 |
+| **Open Source** | 阅读、拆解、改造，也把自己的探索留给后来的人。 |
 
-interests:
-  - 🔗 Web3 / DeFi / Crypto
-  - 🧠 AI & Machine Learning
-  - 🛠️ Full Stack Development
-  - 🐧 Linux & Open Source
-  - 💀 Breaking & Building Things
+<br>
 
-philosophy: "Ship fast. Break things. Fix later. Maybe."
-```
+## 03 / TOOLBOX
 
-<br clear="right"/>
+<img src="https://skillicons.dev/icons?i=python,ts,js,rust,go,react,nodejs,docker,linux,git,vim&theme=dark&perline=11" alt="Python, TypeScript, JavaScript, Rust, Go, React, Node.js, Docker, Linux, Git, Vim" />
 
----
+<br><br>
 
-### `> neofetch --tech-stack`
+## 04 / FOLLOW THE WORK
+
+代码、实验与持续更新，都在 [公开仓库](https://github.com/hyc3z?tab=repositories) 中。
 
 <div align="center">
+<br>
 
-#### ⚡ Languages
-![Python](https://img.shields.io/badge/Python-14354C?style=flat-square&logo=python&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white)
-![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white)
-![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white)
-![Solidity](https://img.shields.io/badge/Solidity-363636?style=flat-square&logo=solidity&logoColor=white)
+**LESS TEMPLATE. MORE PERSONALITY.**
 
-#### 🛠️ Frameworks & Tools
-![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
-![Node.js](https://img.shields.io/badge/Node.js-43853D?style=flat-square&logo=node.js&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-![Vim](https://img.shields.io/badge/Vim-019733?style=flat-square&logo=vim&logoColor=white)
-
-</div>
-
----
-
-### `> cat /var/log/github_stats.log`
-
-<div align="center">
-
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=hyc3z&show_icons=true&theme=chartreuse-dark&hide_border=true&bg_color=0d1117&title_color=00ff41&icon_color=00ff41&text_color=c9d1d9&ring_color=00ff41" />
-<img height="170" src="https://github-readme-streak-stats.herokuapp.com?user=hyc3z&theme=chartreuse-dark&hide_border=true&background=0D1117&ring=00FF41&fire=00FF41&currStreakLabel=00FF41" />
-
-<img width="400" src="https://github-readme-stats.vercel.app/api/top-langs/?username=hyc3z&layout=compact&theme=chartreuse-dark&hide_border=true&bg_color=0d1117&title_color=00ff41&text_color=c9d1d9" />
-
-</div>
-
----
-
-### `> tail -f /var/log/activity.log`
-
-<div align="center">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=hyc3z&bg_color=0d1117&color=00ff41&line=00ff41&point=ffffff&area_color=00ff41&area=true&hide_border=true" width="95%" />
-
-</div>
-
----
-
-<div align="center">
-
-### `> echo $MOTTO`
-
-```
-  ╔══════════════════════════════════════════════════╗
-  ║                                                  ║
-  ║   "The code compiles. Ship it." — every dev ever ║
-  ║                                                  ║
-  ╚══════════════════════════════════════════════════╝
-```
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,100:00ff41&height=100&section=footer" width="100%" />
+<sub>hyc3z / curiosity in progress</sub>
 
 </div>
