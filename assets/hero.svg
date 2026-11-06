@@ -1,6 +1,298 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="520" viewBox="0 0 1200 520">
-<defs><pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse"><path d="M48 0H0V48" fill="none" stroke="#242935" stroke-width="1"/></pattern><linearGradient id="g"><stop stop-color="#d4ff38"/><stop offset="1" stop-color="#56dfff"/></linearGradient></defs>
-<rect width="1200" height="520" rx="16" fill="#080b12"/><rect width="1200" height="520" fill="url(#grid)"/>
-<g fill="none" stroke="#56dfff" opacity=".45"><circle cx="1000" cy="250" r="180"/><ellipse cx="1000" cy="250" rx="90" ry="180"/><ellipse cx="1000" cy="250" rx="180" ry="65"/><path d="M820 250h360M1000 70v360"/><g transform="translate(1000 250)"><circle cx="180" r="6" fill="#d4ff38"><animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="16s" repeatCount="indefinite"/></circle></g></g>
-<path d="M44 44h36M44 44v36M1156 476h-36M1156 476v-36" stroke="#d4ff38" stroke-width="3" fill="none"/>
-<g font-family="monospace"><text x="70" y="100" fill="#d4ff38" font-size="16" letter-spacing="5">INDEPENDENT DEVELOPER / HYC3Z</text><text x="62" y="285" fill="url(#g)" font-size="174" font-weight="900" letter-spacing="-12">hyc3z<tspan fill="#d4ff38">_</tspan></text><text x="72" y="345" fill="#f0f3f8" font-size="28" letter-spacing="3">BUILD BEYOND THE DEFAULT.</text><text x="72" y="405" fill="#8c98ae" font-size="17">AI SYSTEMS / OPEN SOURCE / EXPERIMENTS</text><path d="M72 438h1056" stroke="#303747"/><text x="72" y="468" fill="#d4ff38" font-size="13" letter-spacing="2">IDEA → PROTOTYPE → REALITY</text><text x="920" y="468" fill="#8c98ae" font-size="13">ALWAYS IN PROGRESS</text></g></svg>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="520" viewBox="0 0 1200 520" role="img" aria-labelledby="heroTitle heroDesc">
+  <title id="heroTitle">hyc3z — 猫娘开发者</title>
+  <desc id="heroDesc">奶油粉色的二次元横幅：左边写着 hyc3z 与「把好奇心写成代码，把脑洞养成现实喵～」，右边是粉发猫耳、奶油色卫衣配薄荷领口的猫娘，正眨眼卖萌，尾巴轻轻摇晃。</desc>
+
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFF9F3"/>
+      <stop offset=".52" stop-color="#FFF1F8"/>
+      <stop offset="1" stop-color="#F5F0FF"/>
+    </linearGradient>
+    <radialGradient id="haloGrad" cx=".5" cy=".45" r=".58">
+      <stop offset="0" stop-color="#FFD2E4" stop-opacity=".9"/>
+      <stop offset=".65" stop-color="#FFE3EE" stop-opacity=".55"/>
+      <stop offset="1" stop-color="#FFE3EE" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="hairGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFC7DB"/>
+      <stop offset=".55" stop-color="#FFA9C8"/>
+      <stop offset="1" stop-color="#F58DB5"/>
+    </linearGradient>
+    <linearGradient id="hairBackGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F99FC0"/>
+      <stop offset="1" stop-color="#E87FA7"/>
+    </linearGradient>
+    <linearGradient id="irisGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#6B46C8"/>
+      <stop offset=".55" stop-color="#C85BBC"/>
+      <stop offset="1" stop-color="#FFA6C9"/>
+    </linearGradient>
+    <linearGradient id="hoodieGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFFDF9"/>
+      <stop offset="1" stop-color="#FFF0E8"/>
+    </linearGradient>
+    <pattern id="dots" width="26" height="26" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.4" fill="#F2AFC8" opacity=".55"/>
+    </pattern>
+    <clipPath id="frame">
+      <rect width="1200" height="520" rx="26"/>
+    </clipPath>
+    <g id="eye">
+      <ellipse rx="24.5" ry="29.5" fill="#FFFDFB"/>
+      <ellipse cy="-2" rx="20.5" ry="28" fill="url(#irisGrad)"/>
+      <ellipse cy="3" rx="8" ry="12" fill="#3A2342"/>
+      <circle cx="-8" cy="-13" r="7" fill="#FFFFFF"/>
+      <circle cx="8" cy="11" r="3.4" fill="#FFFFFF" opacity=".9"/>
+      <ellipse cy="22" rx="13" ry="5" fill="#FFC7DE" opacity=".5"/>
+      <path d="M -24 -20 C -17 -29 17 -29 24 -20" fill="none" stroke="#5A3F5E" stroke-width="5.5" stroke-linecap="round"/>
+      <path d="M -20 21 C -10 27 10 27 20 21" fill="none" stroke="#E3A2B4" stroke-width="2" opacity=".8"/>
+    </g>
+    <g id="earL">
+      <path d="M 850 158 C 820 124 802 82 808 40 C 842 52 880 94 902 134 C 884 146 866 156 850 158 Z" fill="url(#hairGrad)" stroke="#F080A9" stroke-width="2" stroke-linejoin="round"/>
+      <path d="M 851 144 C 828 114 814 82 818 58 C 842 72 868 104 884 130 Z" fill="#FFC9DC"/>
+      <path d="M 828 104 C 834 118 844 132 856 142" fill="none" stroke="#FFB3CC" stroke-width="2.5" opacity=".8" stroke-linecap="round"/>
+    </g>
+    <g id="paw">
+      <ellipse cx="0" cy="3" rx="9" ry="7.5"/>
+      <circle cx="-10" cy="-6" r="3.6"/>
+      <circle cx="-3.4" cy="-9.5" r="3.6"/>
+      <circle cx="3.4" cy="-9.5" r="3.6"/>
+      <circle cx="10" cy="-6" r="3.6"/>
+    </g>
+    <g id="heart">
+      <path d="M 0 7 C -13 -2 -9 -13 0 -7 C 9 -13 13 -2 0 7 Z"/>
+    </g>
+    <g id="sparkle">
+      <path d="M 0 -12 C 2 -4 4 -2 12 0 C 4 2 2 4 0 12 C -2 4 -4 2 -12 0 C -4 -2 -2 -4 0 -12 Z"/>
+    </g>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="520" fill="url(#bgGrad)"/>
+    <circle cx="1080" cy="30" r="180" fill="#FFE2ED" opacity=".75"/>
+    <circle cx="590" cy="560" r="210" fill="#E9F8F2" opacity=".85"/>
+    <circle cx="120" cy="20" r="130" fill="#F0EAFF" opacity=".65"/>
+    <rect width="1200" height="520" fill="url(#dots)" opacity=".42"/>
+
+    <!-- soft halo behind the catgirl -->
+    <path d="M 706 268 C 696 168 762 86 872 76 C 986 66 1078 126 1090 226 C 1102 326 1044 414 942 440 C 836 466 738 410 716 324 C 708 296 706 282 706 268 Z" fill="url(#haloGrad)"/>
+    <circle cx="900" cy="262" r="224" fill="none" stroke="#FFC3DA" stroke-width="1.6" stroke-dasharray="2 12" opacity=".85">
+      <animateTransform attributeName="transform" type="rotate" from="0 900 262" to="360 900 262" dur="70s" repeatCount="indefinite"/>
+    </circle>
+
+    <!-- floating decorations -->
+    <g fill="#FFD06B" opacity=".9">
+      <g transform="translate(748 168)">
+        <g>
+          <animateTransform attributeName="transform" type="scale" values=".7;1.05;.7" dur="3.4s" repeatCount="indefinite"/>
+          <use href="#sparkle" transform="scale(.85)"/>
+        </g>
+      </g>
+    </g>
+    <g fill="#7FDCC6" opacity=".85">
+      <g transform="translate(1084 296)">
+        <g>
+          <animateTransform attributeName="transform" type="scale" values="1;.65;1" dur="4.2s" repeatCount="indefinite"/>
+          <use href="#sparkle" transform="scale(.6)"/>
+        </g>
+      </g>
+    </g>
+    <g fill="#FF9DBF" opacity=".8">
+      <g transform="translate(778 352)">
+        <g>
+          <animateTransform attributeName="transform" type="scale" values=".6;1;.6" dur="3s" repeatCount="indefinite"/>
+          <use href="#sparkle" transform="scale(.5)"/>
+        </g>
+      </g>
+    </g>
+    <g fill="#FF9DBF" opacity=".75">
+      <g transform="translate(762 232)">
+        <g>
+          <animateTransform attributeName="transform" type="translate" values="0 0;0 -10;0 0" dur="5.2s" repeatCount="indefinite"/>
+          <use href="#heart" transform="scale(.9)"/>
+        </g>
+      </g>
+    </g>
+    <g fill="#FFA9C8" opacity=".65">
+      <g transform="translate(1054 206)">
+        <g>
+          <animateTransform attributeName="transform" type="translate" values="0 0;0 -8;0 0" dur="4.4s" repeatCount="indefinite"/>
+          <use href="#heart" transform="scale(.65)"/>
+        </g>
+      </g>
+    </g>
+    <g fill="#F7A8C4" opacity=".5" transform="translate(690 432) rotate(-14)">
+      <use href="#paw" transform="scale(.9)"/>
+    </g>
+    <g fill="#FFC2D8" opacity=".7">
+      <path d="M 700 120 C 706 112 716 113 717 121 C 716 129 706 132 700 127 C 696 124 697 122 700 120 Z"/>
+      <path d="M 1126 170 C 1132 162 1142 163 1143 171 C 1142 179 1132 182 1126 177 C 1122 174 1123 172 1126 170 Z"/>
+      <path d="M 1118 470 C 1124 462 1134 463 1135 471 C 1134 479 1124 482 1118 477 C 1114 474 1115 472 1118 470 Z"/>
+    </g>
+
+    <!-- left column -->
+    <g font-family="'PingFang SC','Hiragino Sans GB','Microsoft YaHei','Noto Sans SC','Source Han Sans SC',sans-serif">
+      <g transform="translate(76 54)">
+        <rect width="266" height="36" rx="18" fill="#FFFFFF" opacity=".8"/>
+        <rect x=".5" y=".5" width="265" height="35" rx="17.5" fill="none" stroke="#FFB9D2"/>
+        <g transform="translate(21 18) scale(.62)" fill="#F27AA6">
+          <use href="#paw"/>
+        </g>
+        <text x="42" y="23" font-size="12" letter-spacing="2.1" fill="#E2608F" font-weight="600">NEKO DEVELOPER · 猫娘形态</text>
+      </g>
+
+      <text x="78" y="246" font-family="'Arial Rounded MT Bold','Varela Round','Nunito','Quicksand','PingFang SC','Microsoft YaHei',sans-serif" font-size="128" font-weight="900" letter-spacing="-3" fill="#FFB6CE" opacity=".75">hyc3z</text>
+      <text x="72" y="240" font-family="'Arial Rounded MT Bold','Varela Round','Nunito','Quicksand','PingFang SC','Microsoft YaHei',sans-serif" font-size="128" font-weight="900" letter-spacing="-3" fill="#4A3450">hyc3z</text>
+      <use href="#sparkle" transform="translate(432 176) scale(1.15)" fill="#FFD06B"/>
+
+      <text x="72" y="312" font-size="26" font-weight="700" letter-spacing=".3" fill="#4A3450">把好奇心写成代码，<tspan fill="#E85C94">把脑洞养成现实喵～</tspan></text>
+      <text x="74" y="344" font-size="12" letter-spacing="2.3" fill="#A98BA3">CURIOSITY → CODE · DAYDREAM → REALITY</text>
+
+      <g transform="translate(72 372)">
+        <rect width="404" height="54" rx="16" fill="#4A3450"/>
+        <circle cx="22" cy="27" r="4" fill="#FF8FB8"/>
+        <circle cx="36" cy="27" r="4" fill="#FFD06B"/>
+        <circle cx="50" cy="27" r="4" fill="#7FDCC6"/>
+        <text x="70" y="32" font-family="'Cascadia Code','SFMono-Regular','Consolas','Liberation Mono',monospace" font-size="15" fill="#B8F5E4">$ nya build --idea "world"<tspan fill="#B8F5E4">_<animate attributeName="opacity" values="1;1;0;0" keyTimes="0;.45;.5;1" dur="1.2s" repeatCount="indefinite"/></tspan></text>
+        <use href="#heart" transform="translate(374 27) scale(.9)" fill="#FF8FB8"/>
+      </g>
+
+      <text x="74" y="478" font-size="12" letter-spacing="1.6" fill="#A98BA3">AI &amp; AGENTS · OPEN SOURCE · SIDE EXPERIMENTS</text>
+    </g>
+
+    <!-- catgirl -->
+    <g>
+      <animateTransform attributeName="transform" type="translate" values="0 0;0 -4;0 0" dur="5s" repeatCount="indefinite"/>
+
+      <!-- tail -->
+      <g>
+        <animateTransform attributeName="transform" type="rotate" values="-4 984 486;5 984 486;-4 984 486" dur="3.6s" repeatCount="indefinite"/>
+        <path d="M 984 486 C 1044 484 1094 452 1108 410 C 1118 378 1100 350 1072 354 C 1054 357 1046 374 1056 386 C 1066 398 1086 392 1088 376" fill="none" stroke="url(#hairGrad)" stroke-width="32" stroke-linecap="round"/>
+        <path d="M 984 486 C 1044 484 1094 452 1108 410 C 1118 378 1100 350 1072 354 C 1054 357 1046 374 1056 386 C 1066 398 1086 392 1088 376" fill="none" stroke="#FFD8E6" stroke-width="11" stroke-linecap="round" opacity=".5"/>
+        <g fill="#FFF3F8">
+          <circle cx="1088" cy="376" r="11"/>
+          <circle cx="1080" cy="368" r="6"/>
+          <circle cx="1095" cy="367" r="5"/>
+        </g>
+        <path d="M 1081 380 C 1086 385 1094 385 1099 380" fill="none" stroke="#F3C4D7" stroke-width="2" stroke-linecap="round" opacity=".8"/>
+      </g>
+
+      <!-- body -->
+      <path d="M 796 540 C 796 450 806 402 838 376 C 854 362 878 350 886 334 L 924 334 C 932 350 956 362 972 376 C 1004 402 1014 450 1014 540 Z" fill="url(#hoodieGrad)" stroke="#F0D5CE" stroke-width="2.5"/>
+      <path d="M 796 540 C 796 450 806 402 838 376 C 828 412 822 468 822 540 Z" fill="#F8E5DD" opacity=".5"/>
+      <path d="M 1014 540 C 1014 450 1004 402 972 376 C 982 412 988 468 988 540 Z" fill="#F8E5DD" opacity=".5"/>
+
+      <!-- neck -->
+      <path d="M 881 286 L 881 334 C 881 346 892 352 905 352 C 918 352 929 346 929 334 L 929 286 Z" fill="#FFE3D5"/>
+      <path d="M 884 326 C 894 336 916 336 926 326" fill="none" stroke="#F3C0B2" stroke-width="2.2" opacity=".8"/>
+
+      <!-- hood front -->
+      <path d="M 848 352 C 864 330 946 330 962 352 C 948 392 862 392 848 352 Z" fill="#B9EFE2"/>
+      <path d="M 848 352 C 864 334 946 334 962 352" fill="none" stroke="#8ADCC9" stroke-width="2" opacity=".8"/>
+
+      <!-- collar + bell -->
+      <path d="M 872 316 C 890 328 920 328 938 316" fill="none" stroke="#FF9DBF" stroke-width="8" stroke-linecap="round"/>
+      <circle cx="905" cy="332" r="10" fill="#FFD166" stroke="#E8A93F" stroke-width="2"/>
+      <path d="M 899 335 h 12" stroke="#E8A93F" stroke-width="2" stroke-linecap="round"/>
+      <circle cx="901" cy="328" r="2.6" fill="#FFF6CF"/>
+
+      <!-- sleeve seams -->
+      <path d="M 846 386 C 836 424 832 472 832 512" fill="none" stroke="#F0D8D1" stroke-width="2" opacity=".8"/>
+      <path d="M 964 386 C 974 424 978 472 978 512" fill="none" stroke="#F0D8D1" stroke-width="2" opacity=".8"/>
+
+      <!-- pocket + peeking paw -->
+      <ellipse cx="905" cy="458" rx="23" ry="18" fill="#FFE9DD"/>
+      <circle cx="893" cy="446" r="6.5" fill="#FFE9DD"/>
+      <circle cx="905" cy="442" r="7" fill="#FFE9DD"/>
+      <circle cx="917" cy="446" r="6.5" fill="#FFE9DD"/>
+      <ellipse cx="905" cy="463" rx="9" ry="7" fill="#FFAFCB"/>
+      <circle cx="893" cy="452" r="3" fill="#FFAFCB"/>
+      <circle cx="905" cy="450" r="3.2" fill="#FFAFCB"/>
+      <circle cx="917" cy="452" r="3" fill="#FFAFCB"/>
+      <path d="M 862 466 C 880 454 930 454 948 466 L 948 508 C 930 516 880 516 862 508 Z" fill="#FFF7F1" stroke="#F0D8D1" stroke-width="2"/>
+      <path d="M 862 466 C 880 454 930 454 948 466" fill="none" stroke="#EBCFC7" stroke-width="2.5" stroke-linecap="round"/>
+
+      <!-- heart patch -->
+      <use href="#heart" transform="translate(956 424) scale(.95)" fill="#FF9DBF"/>
+
+      <!-- ears -->
+      <g>
+        <use href="#earL"/>
+        <animateTransform attributeName="transform" type="rotate" values="0 850 158;0 850 158;-6 850 158;0 850 158" keyTimes="0;.88;.94;1" dur="6.5s" repeatCount="indefinite"/>
+      </g>
+      <use href="#earL" transform="translate(1810 0) scale(-1 1)"/>
+
+      <!-- back hair -->
+      <ellipse cx="905" cy="200" rx="120" ry="124" fill="url(#hairBackGrad)"/>
+      <path d="M 800 176 C 786 236 786 298 804 344 C 812 364 830 368 840 354 C 822 312 818 252 826 188 Z" fill="url(#hairBackGrad)"/>
+      <path d="M 1010 176 C 1024 236 1024 298 1006 344 C 998 364 980 368 970 354 C 988 312 992 252 984 188 Z" fill="url(#hairBackGrad)"/>
+
+      <!-- face -->
+      <path d="M 813 196 C 813 134 853 106 905 106 C 957 106 997 134 997 196 C 997 256 963 290 905 299 C 847 290 813 256 813 196 Z" fill="#FFE9DD"/>
+      <path d="M 813 196 C 813 150 840 120 875 110 C 850 126 835 154 835 196 C 835 240 850 268 875 285 C 845 272 813 240 813 196 Z" fill="#FFDCCD" opacity=".35"/>
+
+      <!-- blush -->
+      <ellipse cx="846" cy="256" rx="25" ry="12" fill="#FFAFCB" opacity=".5"/>
+      <ellipse cx="964" cy="256" rx="25" ry="12" fill="#FFAFCB" opacity=".5"/>
+      <g stroke="#F58FB2" stroke-width="2" stroke-linecap="round" opacity=".45">
+        <path d="M 833 262 L 840 254"/><path d="M 841 264 L 848 256"/><path d="M 849 265 L 856 257"/>
+        <path d="M 977 262 L 970 254"/><path d="M 969 264 L 962 256"/><path d="M 961 265 L 954 257"/>
+      </g>
+
+      <!-- eyes -->
+      <g transform="translate(865 226)">
+        <g>
+          <animateTransform attributeName="transform" type="scale" values="1 1;1 1;1 .06;1 1" keyTimes="0;.9;.945;1" dur="5.5s" repeatCount="indefinite"/>
+          <use href="#eye"/>
+        </g>
+      </g>
+      <g transform="translate(945 226)">
+        <g>
+          <animateTransform attributeName="transform" type="scale" values="1 1;1 1;1 .06;1 1" keyTimes="0;.9;.945;1" dur="5.5s" begin=".04s" repeatCount="indefinite"/>
+          <use href="#eye"/>
+        </g>
+      </g>
+
+      <!-- nose + mouth -->
+      <ellipse cx="905" cy="261" rx="3.2" ry="2.2" fill="#EDA3B8"/>
+      <path d="M 890 275 Q 897 283 905 275 Q 913 283 920 275" fill="none" stroke="#C9698A" stroke-width="3.2" stroke-linecap="round"/>
+
+      <!-- bangs -->
+      <path d="M 790 184 C 784 128 832 84 905 84 C 978 84 1026 128 1020 184 C 1008 170 996 158 984 150 C 982 166 972 178 960 182 C 954 168 946 156 936 150 C 936 166 928 178 916 182 C 910 168 902 158 894 152 C 892 168 882 178 870 182 C 866 168 858 158 848 152 C 844 166 834 176 822 180 C 816 170 806 162 796 158 C 792 166 790 176 790 184 Z" fill="url(#hairGrad)"/>
+      <g fill="none" stroke="#F07FA8" stroke-width="3" stroke-linecap="round" opacity=".4">
+        <path d="M 905 90 C 886 108 868 138 856 170"/>
+        <path d="M 905 90 C 924 108 942 138 954 170"/>
+        <path d="M 862 98 C 844 118 830 143 822 166"/>
+        <path d="M 948 98 C 966 118 980 143 988 166"/>
+      </g>
+      <path d="M 850 126 C 870 104 890 94 912 92" fill="none" stroke="#FFE0EB" stroke-width="7" stroke-linecap="round" opacity=".8"/>
+      <path d="M 930 114 C 946 126 962 146 974 166" fill="none" stroke="#FFE0EB" stroke-width="4" stroke-linecap="round" opacity=".55"/>
+
+      <!-- brows -->
+      <path d="M 843 187 Q 863 181 883 186" fill="none" stroke="#D98CAB" stroke-width="3.4" stroke-linecap="round"/>
+      <path d="M 927 186 Q 947 181 967 187" fill="none" stroke="#D98CAB" stroke-width="3.4" stroke-linecap="round"/>
+
+      <!-- ahoge -->
+      <g>
+        <animateTransform attributeName="transform" type="rotate" values="-3 900 96;3 900 96;-3 900 96" dur="4s" repeatCount="indefinite"/>
+        <path d="M 896 94 C 876 70 882 40 912 30 C 930 24 950 32 952 46" fill="none" stroke="url(#hairGrad)" stroke-width="10" stroke-linecap="round"/>
+      </g>
+
+      <!-- fish hairpin -->
+      <g transform="translate(842 148) rotate(-24) scale(1.05)">
+        <path d="M 0 0 C 7 -7 19 -7 26 0 C 19 7 7 7 0 0 Z" fill="#7FDCC6"/>
+        <path d="M 0 0 L -8 -6 L -8 6 Z" fill="#7FDCC6"/>
+        <path d="M 6 0 C 10 -4 15 -4 19 0" fill="none" stroke="#C8F5EB" stroke-width="1.6"/>
+        <circle cx="21" cy="0" r="1.8" fill="#4A3450"/>
+      </g>
+    </g>
+
+    <!-- speech bubble -->
+    <g>
+      <animateTransform attributeName="transform" type="translate" values="0 0;0 -5;0 0" dur="3.8s" repeatCount="indefinite"/>
+      <path d="M 1050 52 h 76 a 18 18 0 0 1 18 18 v 24 a 18 18 0 0 1 -18 18 h -40 l -16 16 l 0 -16 h -20 a 18 18 0 0 1 -18 -18 v -24 a 18 18 0 0 1 18 -18 Z" fill="#FFFFFF" opacity=".94" stroke="#FFC0D7" stroke-width="2"/>
+      <text x="1088" y="91" text-anchor="middle" font-family="'Yu Gothic','Hiragino Kaku Gothic ProN','Noto Sans JP',sans-serif" font-size="20" font-weight="700" fill="#E2608F">にゃ〜</text>
+    </g>
+  </g>
+</svg>
